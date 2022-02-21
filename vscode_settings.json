@@ -1,0 +1,107 @@
+{
+    "editor.fontSize": 14,
+    "editor.tabSize": 2,
+    "editor.rulers": [
+        100
+    ],
+    "editor.renderWhitespace": "boundary",
+    "editor.wordWrapColumn": 100,
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontWeightBold": "normal",
+    "ruby.intellisense": "rubyLocate",
+    "breadcrumbs.enabled": false,
+    "editor.renderControlCharacters": true,
+    "workbench.fontAliasing": "antialiased",
+    "workbench.statusBar.feedback.visible": false,
+    "terminal.external.osxExec": "iTerm.app",
+    "terminal.integrated.copyOnSelection": true,
+    "vs-kubernetes": {
+        "vs-kubernetes.minikube-path": "/Users/john.meade/.vs-kubernetes/tools/minikube/darwin-amd64/minikube",
+        "vs-kubernetes.kubectl-path": "/usr/local/bin/kubectl",
+        "vs-kubernetes.helm-path": "/usr/local/bin/helm2",
+        "vs-kubernetes.draft-path": "/Users/john.meade/.vs-kubernetes/tools/draft/darwin-amd64/draft",
+        "vs-kubernetes.minikube-path.mac": "/Users/john.meade/.vs-kubernetes/tools/minikube/darwin-amd64/minikube",
+        "vscode-kubernetes.minikube-path.mac": "/Users/john.meade/.vs-kubernetes/tools/minikube/darwin-amd64/minikube"
+    },
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "editor.copyWithSyntaxHighlighting": false,
+    "docker-explorer.showAzureRegistries": false,
+    "docker-explorer.showDockerHubTreeView": false,
+    "docker-explorer.enableTelemetry": false,
+    "docker-explorer.showSuggestedDockerImages": false,
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "goOutliner.extendExplorerTab": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "go.toolsGopath": "/Users/john.meade/go",
+    "terraform.telemetry.enabled": false,
+    "terraform.indexing": {
+        "enabled": false,
+        "liveIndexing": false,
+        "delay": 500,
+        "exclude": [
+            ".terraform/**/*",
+            "**/.terraform/**/*"
+        ]
+    },
+    "terraform.languageServer": {
+        "external": true,
+        "args": [
+            "serve"
+        ]
+    },
+    "terminal.integrated.shell.osx": "/usr/local/bin/bash",
+    "editor.minimap.enabled": false,
+    "go.toolsEnvVars": {
+        "GO111MODULE": "on",
+    },
+    "go.formatTool": "goimports",
+    "go.coverOnSave": true,
+    "go.liveErrors": {
+        "enabled": false
+    },
+    "go.coverageOptions": "showUncoveredCodeOnly",
+    "go.testOnSave": true,
+    "go.buildOnSave": "workspace",
+    "[ruby]": {
+        "editor.defaultFormatter": "rebornix.ruby"
+    },
+    "ruby.rctComplete.commandPath": "",
+    "ruby.useBundler": true,
+    "ruby.useLanguageServer": true,
+    "ruby.lint": {
+        "rubocop": {
+            "useBundler": true
+        }
+    },
+    "ruby.format": false,
+    "diffEditor.renderSideBySide": false,
+    "groovyLint.lint.trigger": "onSave",
+    "groovyLint.insight.enable": false,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "redhat.telemetry.enabled": false,
+    "workbench.colorTheme": "One Dark Pro",
+    "oneDarkPro.italic": false,
+    "vscode-kubernetes.helm-path": "/usr/local/bin/helm2",
+    "vscode-kubernetes.helm-path.mac": "/usr/local/bin/helm2",
+    "vscode-kubernetes.kubectl-path": "/usr/local/bin/kubectl",
+    "vscode-kubernetes.kubectl-path.mac": "/usr/local/bin/kubectl",
+    "markdown-preview-enhanced.previewTheme": "one-dark.css",
+    "editor.formatOnSave": true,
+    "go.toolsManagement.autoUpdate": true,
+    "go.testTimeout": "0s",
+    "ruby.rubocop.useBundler": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "python.defaultInterpreterPath": "python3",
+    "yaml.format.enable": false,
+    "yaml.format.printWidth": 120,
+    "files.associations": {
+        "*.yaml": "yaml",
+        "*.yml": "yaml"
+    }
+}
